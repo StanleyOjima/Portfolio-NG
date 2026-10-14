@@ -11,8 +11,13 @@
       "permanent": true
     },
     {
-      "source": "/projects/risevest",
-      "destination": "/projects/",
+      "source": "/goco",
+      "destination": "/projects/goco/",
+      "permanent": true
+    },
+    {
+      "source": "/goco/:path*",
+      "destination": "/projects/goco/",
       "permanent": true
     }
   ],
